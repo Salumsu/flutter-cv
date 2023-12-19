@@ -11,6 +11,7 @@ class Skills extends StatelessWidget {
         backgroundColor: Colors.blue,
       ),
       body: Container(
+        width: double.infinity,
         decoration: const BoxDecoration(
           image: DecorationImage(
             image: AssetImage('images/bg.jpg'),
